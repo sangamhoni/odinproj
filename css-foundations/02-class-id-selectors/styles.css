@@ -1,0 +1,23 @@
+*{
+    font-family: serif;
+}
+
+p.odd{
+    background-color: #E08CBD;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+div#first-id{
+    color: blue;
+    font-size: 36px;
+}
+
+p.cool-class{
+    font-size: 24px;
+}
+
+div#second-id{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
