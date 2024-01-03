@@ -18,14 +18,17 @@
     display: flex;
     justify-content: space-between;
   }
-
-
-.links {
-    /* border: 1px solid #fff;  For debugging */
+  
+/* .links {
+    border: 1px solid #fff;  For debugging
     display: flex;
     justify-content: flex-end;
-  }
+  } */
   
+  .signup {
+    margin-left: auto;
+  }
+
   .login {
     margin-left: 20px;
   }
