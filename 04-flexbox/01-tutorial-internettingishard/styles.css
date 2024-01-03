@@ -51,6 +51,12 @@
   border: 1px solid #5995DA;        to debug
 } */
 
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
 .photo-grid-container {
   display: flex;
   justify-content: center;
