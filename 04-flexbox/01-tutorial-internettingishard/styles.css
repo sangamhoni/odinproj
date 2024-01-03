@@ -42,14 +42,14 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
   }
 
-  .social,
+  /* .social,
 .logo,
 .subscribe {
-  border: 1px solid #5995DA;
-}
+  border: 1px solid #5995DA;        to debug
+} */
 
 .photo-grid-container {
   display: flex;
@@ -61,7 +61,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;      /* to center horizontally, since flex-direction is column */
 }
 
@@ -69,4 +69,12 @@
   border: 1px solid #fff;
   width: 300px;
   height: 300px;
+}
+
+.first-item {
+  order: 1;
+}
+
+.last-item {
+  order: -1;
 }
