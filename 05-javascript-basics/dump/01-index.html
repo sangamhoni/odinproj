@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js basics</title>
+</head>
+
+<body>
+  <h2>The * Operator</h2>
+  <p id="demo"></p>
+
+  <h2>JavaScript Numbers</h2>
+  <p>Infinity is returned if you calculate a number outside the largest possible number:</p>
+  <p id="demo2"></p>
+
+  <script>
+    console.log("Hello, World!");
+    
+    // printing to screen
+    let x = 5;
+    let y = 2;
+    let z = x * y;
+    document.getElementById("demo").innerHTML = z;
+
+    let myNumber = 2; 
+    let txt = "";
+    while (myNumber != Infinity) {
+      myNumber = myNumber * myNumber;
+      txt = txt + myNumber + "<br>";
+    }
+    document.getElementById("demo2").innerHTML = txt;
+
+
+  </script>
+
+  
+</body>
+</html>
